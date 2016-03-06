@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407D5361C8BA98700D7F3ED /* script.json in Resources */ = {isa = PBXBuildFile; fileRef = 8407D5351C8BA98700D7F3ED /* script.json */; };
+		848BF8981C5FEA1E00236C0D /* JSONParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BF8971C5FEA1E00236C0D /* JSONParse.swift */; };
 		84ED694D1C557EFA00961987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED694C1C557EFA00961987 /* AppDelegate.swift */; };
 		84ED694F1C557EFA00961987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED694E1C557EFA00961987 /* ViewController.swift */; };
 		84ED69521C557EFA00961987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ED69501C557EFA00961987 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8407D5351C8BA98700D7F3ED /* script.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = script.json; sourceTree = "<group>"; };
+		848BF8971C5FEA1E00236C0D /* JSONParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParse.swift; sourceTree = "<group>"; };
 		84ED69491C557EFA00961987 /* DemoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ED694C1C557EFA00961987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ED694E1C557EFA00961987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				84ED694C1C557EFA00961987 /* AppDelegate.swift */,
 				84ED694E1C557EFA00961987 /* ViewController.swift */,
+				848BF8971C5FEA1E00236C0D /* JSONParse.swift */,
+				8407D5351C8BA98700D7F3ED /* script.json */,
 				84ED69501C557EFA00961987 /* Main.storyboard */,
 				84ED69531C557EFA00961987 /* Assets.xcassets */,
 				84ED69551C557EFA00961987 /* LaunchScreen.storyboard */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8407D5361C8BA98700D7F3ED /* script.json in Resources */,
 				84ED69571C557EFA00961987 /* LaunchScreen.storyboard in Resources */,
 				84ED69541C557EFA00961987 /* Assets.xcassets in Resources */,
 				84ED69521C557EFA00961987 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848BF8981C5FEA1E00236C0D /* JSONParse.swift in Sources */,
 				84ED694F1C557EFA00961987 /* ViewController.swift in Sources */,
 				84ED694D1C557EFA00961987 /* AppDelegate.swift in Sources */,
 			);
@@ -398,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.fastman.DemoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.fastman.DemoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +492,7 @@
 				84ED69731C557EFA00961987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84ED69741C557EFA00961987 /* Build configuration list for PBXNativeTarget "DemoGameTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +501,7 @@
 				84ED69761C557EFA00961987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84ED69771C557EFA00961987 /* Build configuration list for PBXNativeTarget "DemoGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +510,7 @@
 				84ED69791C557EFA00961987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,58 @@
+{
+    "1": [{
+        "villan": [
+            {"phrase": "Greetings."},
+            {"phrase": "You don’t know me. But I do know you."},
+            {"phrase": "And that’s why you have been selected for a unique task, my friend."},
+            {"phrase": "But before I tell you more about that, I’d like to introduce you to Clarice."},
+            {"phrase": "[a skinny frightened blond girl is brought into the scene, seemingly crying]"},
+            {"phrase": "Let me introduce you to Clarice. Poor little Clarice here is only 18 years old, and yet, has already done some really bad things."},
+            {"phrase": "Of course it doesn’t look like it, but we all have our little demons, right Clarice?"},
+            {"phrase": "[the girl has her mouth shut with a piece of cloth]"},
+            {"phrase": "Look at her."}
+        ], 
+        "player": [{
+            "escolha": "What are you doing? Who the hell is this girl?",
+            "resposta": "1"
+        }, {
+            "escolha": "Tell me, what is the purpose of all that?",
+            "resposta": "1"
+        }, {
+            "escolha": "Will you let this girl out? What is wrong with you?",
+            "resposta": "2"
+        }]
+    }, {
+        "answer": [{
+            "id": "1",
+            "resposta": "All in due time, my esteemed friend. Now, look at her:"
+        }, {
+            "id": "2",
+            "resposta": "That is not the matter at hand right now, my friend. You’ll get all the chance to know me when the time is right. Now, look at her:"
+        }]
+    }],
+    "2": [{
+        "villian": "So beautiful,… and yet so very fragile. Look deep into her big blue eyes. Can you see it? Can you feel her crying? Yes… Yes, so very fragile. Can you feel her emotions slipping through her skin and pouring out like oxygen? Yes. All that pain, anger, fear and sorrow. Sorrow and regret. All of her emotions pouring out, and tearing her soul apart; Ravaging her entire existence, like the wrath of a desperate angel. A gorgeous desperate fallen angel. Can you feel it? This is what I call: “Perfection”.Anyways, let us get back to the purpose which had me get to you in the first place: Tonight is a very special night. Tonight I’m offering her redemption of all of her wrongdoing. Isn’t that right, sweetheart? [the girl trembles in desperation as the dark figure slowly runs his index finger up her somewhat moisty  left cheek] Oh, well, this is not the right time to feel shy, right darling? We all know that is not a particular trait of yours. But then again, friend, tonight is Redemption Night. I’m offering her her redemption. That is, redemption through you. Yes, that’ s right. I’ ve told you you were special, haven’ t I ? So, what do you say ?"
+    }, {
+        "player": [{
+            "escolha": "Just tell me what you want. There’s no need to put the girl in any harm.",
+            "resposta": "1"
+        }, {
+            "escolha": "What makes you think I’m not gonna call the cops on you?",
+            "resposta": "2"
+        }, {
+            "escolha": "But first tell me: who exactly are you?",
+            "resposta": "3"
+        }]
+    }, {
+        "answer": [{
+            "id": "1",
+            "resposta": "I’m a sort of Judge. My name, for obvious reasons, shall remain a secret for know. But you may call me Osiris."
+        }, {
+            "id": "2",
+            "resposta": "bla bla bla bla"
+        }, {
+            "id": "3",
+            "resposta": "I’m a sort of Judge. My name, for obvious reasons, shall remain a secret for know. But you may call me Osiris."
+        }]
+    }]
+}
